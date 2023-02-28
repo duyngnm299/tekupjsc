@@ -1,0 +1,33 @@
+:root {
+    --default-layout-header-height: 96px;
+    --default-layout-width: 100%;
+    --default-layout-horizontal-spacer: 24px;
+    --search-bar-height: 57px;
+    --side-bar-width: 280px;
+    --window-height: 731px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: #161823;
+    overflow-y: overlay;
+}
+
+.wrapper {
+  position: relative;
+  width: var(--default-layout-width);
+  padding: 90px 98px;
+}
